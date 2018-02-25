@@ -1,0 +1,20 @@
+body{
+    font-family: 'Play', sans-serif;
+    background: #70e1f5;
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  
+    background: linear-gradient(to right, #ffd194, #70e1f5);
+
+}
+
+.cont{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:500px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding:20px;
+    opacity:0.75;
+    margin-top:5%;
+    text-align: center;
+}
