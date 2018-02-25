@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/amannanrhe/img_search/issues"
   },
-  "homepage": "https://github.com/amannanrhe/img_search#readme"
+  "homepage": "https://github.com/amannanrhe/img_search#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
