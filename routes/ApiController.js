@@ -1,13 +1,22 @@
+/**
+ * Set up
+ */
 var express = require('express');
 var router = express.Router();
 var path = require('path');
 var https = require("https");
 var recent = [];
 
+/**
+ * GET homepage
+ */
 router.get('/', function(req, res, next){
     res.sendFile(path.resolve(__dirname, '../views/index.html'));
 });
 
+/**
+ * GET request with query and page number passed. Send request using Google CSE API and send information back to user
+ */
 router.get('/search', function(req, res, next){
     var query = req.query.q;
     if(recent.length == 10) {
@@ -38,6 +47,9 @@ router.get('/search', function(req, res, next){
     });
 });
 
+/**
+ * GET last 10 search queries
+ */
 router.get('/recent', function(req, res, next){
     res.send(recent);
 });
