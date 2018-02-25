@@ -1,0 +1,19 @@
+{
+  "name": "img_search",
+  "version": "0.0.1",
+  "description": "API to return results for image in json response",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amannanrhe/img_search.git"
+  },
+  "author": "aman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amannanrhe/img_search/issues"
+  },
+  "homepage": "https://github.com/amannanrhe/img_search#readme"
+}
